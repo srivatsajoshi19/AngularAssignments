@@ -1,0 +1,28 @@
+<h1>Databinding, string interpolation, event binding, property binding</h1>
+<div class="container">
+  <form ngNativeValidate>
+    <fieldset>
+      <legend>Contact Us</legend>
+      <label for="fullName"> Name </label>
+      <input
+        type="text"
+        required
+        name="fullName"
+        id="fullname"
+        [(ngModel)]="name"
+      />
+      {{ name }}
+
+      <label for="email"> Email </label>
+      <input type="email" id="email" name="email" [(ngModel)]="email" />
+      {{ email }}
+
+      <div>
+        <button type="submit" [disabled]="isDisabled()" (click)="onSubmit()">
+          Submit
+        </button>
+        <button (click)="onReset()">Reset</button>
+      </div>
+    </fieldset>
+  </form>
+</div>
