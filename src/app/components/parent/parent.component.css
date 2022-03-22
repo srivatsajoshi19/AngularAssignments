@@ -1,0 +1,7 @@
+.card {
+  max-width: 300px;
+  min-height: 200px;
+  background-color: #a18e8edc;
+  margin: 20px;
+  padding: 10px;
+}

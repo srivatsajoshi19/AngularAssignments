@@ -1,0 +1,5 @@
+<p>Display Component : Open console to view messages</p>
+<button (click)="toggleChild()">Toggle</button>
+<app-display-child *ngIf="isChild">
+  <h3 #projectedContent>Content Projection</h3>
+</app-display-child>

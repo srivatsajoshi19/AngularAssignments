@@ -1,0 +1,7 @@
+.display-card {
+    margin: 50px auto;
+    background-color: steelblue;
+    max-width: max-content;
+    max-height: min-content;
+    padding: 20px;
+}

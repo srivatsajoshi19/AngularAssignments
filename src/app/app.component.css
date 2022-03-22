@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.display-card {
+  margin: 50px auto;
+  background-color: steelblue;
+  max-width: max-content;
+  max-height: min-content;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}

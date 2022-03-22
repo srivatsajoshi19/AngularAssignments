@@ -1,0 +1,17 @@
+<div class="card">
+  <h3>Parent Component</h3>
+  <p>Message to child:{{ message }}</p>
+  <p>Message from child: {{ messageFromChild }}</p>
+  <p>Message using ViewChild: {{ messageFromViewChild }}</p>
+
+  <app-child
+    (messageEvent)="receiveMessage($event)"
+    [message]="message"
+  ></app-child>
+  <div class="lifecycle">
+    <p></p> 
+    <p></p> 
+    <p></p> 
+  
+  </div>
+</div>
