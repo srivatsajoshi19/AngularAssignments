@@ -1,0 +1,25 @@
+<h1>{{ title }}</h1>
+
+<div class="row">
+  <div class="col box">
+    <h3>Custom Attribute Directives</h3>
+    <p appHighlight>Custom Attribute</p>
+    <p appHighlight highlightColor="steelblue">
+      Custom Attribute with parameter
+    </p>
+    <img
+      src="../assets/images.jpg"
+      width="100px"
+      height="100px"
+      appHighlight
+      showOpacity="0.5"
+      hideOpacity="1"
+    />
+  </div>
+  <div class="col box">
+    <h3>Custom Structural Directives</h3>
+    <ul *ngFor="let product of products">
+      <li *appCustomStructural="product">{{ product.productName }}</li>
+    </ul>
+  </div>
+</div>

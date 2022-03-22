@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+
+.box {
+  border: 2px solid black;
+  margin: 20px;
+  line-height: 2em;
+  padding: 15px;
+}
+.box h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.box p {
+  margin: 3px;
+  width: 250px;
+}
+
+div img {
+  margin: 20px;
+}
+.box ul{
+  margin: 20px
+}
