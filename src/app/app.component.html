@@ -1,0 +1,7 @@
+<div>
+  <h1>{{ title | uppercase }}</h1>
+  <h4>{{today | date}}</h4>
+  <p><em>Pipe to convert USD to INR</em></p>
+  <h3>USD: {{ money | currency: "USD" }}</h3>
+  <h3>INR: {{ money | usdToInr: 76 | currency: "INR" }}</h3>
+</div>
