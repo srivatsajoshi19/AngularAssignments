@@ -1,0 +1,7 @@
+<div class="top">
+    <h1>https://api.github.com/users</h1>
+    <button type="button" (click)="getUsers()" class="btn btn-primary btn-lg">Click</button>
+</div>
+<div class="main " *ngFor="let user of users">
+    <app-usercard [user]="user"></app-usercard>
+</div>
